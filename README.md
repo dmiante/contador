@@ -1,3 +1,3 @@
-### CONTADOR SIMPLE CON REACT
+# CONTADOR SIMPLE CON REACT
 
 Rep de un contador simple con react
