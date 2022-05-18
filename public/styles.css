@@ -1,5 +1,29 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  
+}
+
+body {
+  background: whitesmoke;
+  background-color: #0069c4;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+}
+
+h1 {
+  color: white;
+}
+
+header {
+  background-color: #f5ba13;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+}

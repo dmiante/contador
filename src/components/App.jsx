@@ -1,14 +1,14 @@
-import React from 'react';
-
-
+import React from "react";
+import Header from "./Header";
+import Count from "./Count";
 
 function App() {
-
-
-
-    return(
-        <h1>probandoooooo</h1>
-    )
+  return (
+    <div>
+      <Header />
+      <Count />
+    </div>
+  );
 }
 
 export default App;
