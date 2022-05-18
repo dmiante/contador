@@ -1,9 +1,13 @@
 import React from 'react'
 
 function Count(){
+
+    
+
+
     return (
         <div className='count'>
-            <h1>0</h1>
+                <h1>100</h1>
         </div>
     )
 }
