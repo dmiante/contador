@@ -33,9 +33,6 @@ header h1 {
   margin: 100px auto;
   border-radius: 10px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
-}
-
-.count h1 {
   color: black;
   font-size: 200px;
   font-weight: 500;
