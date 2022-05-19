@@ -3,11 +3,10 @@ import Header from "./Header";
 import Count from "./Count";
 
 function App() {
-  
   return (
     <div>
-      <Header />
-      <Count />
+        <Header />
+        <Count />
     </div>
   );
 }

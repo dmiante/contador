@@ -9,11 +9,9 @@ html {
 }
 
 body {
-  background: whitesmoke;
   background-color: #0069c4;
   background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
 }
-
 
 header {
   background-color: #f5ba13;
@@ -33,10 +31,15 @@ header h1 {
   margin: 100px auto;
   border-radius: 10px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.count h1 {
   color: black;
   font-size: 200px;
   font-weight: 500;
   word-wrap: break-word;
+  background: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .action {
@@ -45,18 +48,21 @@ header h1 {
   justify-content: center;
 }
 
-.action button{
+.action button {
   background-color: #f5ba13;
   color: rgb(255, 255, 255);
   width: 250px;
   height: 170px;
   cursor: pointer;
   margin: 50px 20px auto;
-  transition: background-color .5s;
+  transition: background-color 0.5s;
   border: none;
-  border-radius: 5%;
-  box-shadow: 0 1px 5px rgb(138, 137, 137);
   outline: none;
+  border-radius: 5%;
+  box-shadow: 12px 2px 1px rgb(138, 137, 137);
+  -webkit-box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 1);
 }
 
 .action button:hover {
